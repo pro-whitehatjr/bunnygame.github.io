@@ -66,7 +66,7 @@ function setup() {
   world = engine.world;
   
   button = createImg('cut_btn.png');
-  button.position(60,30);
+  button.position(50,30);
   button.size(60,60);
   button.mouseClicked(drop);
 
